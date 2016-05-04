@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
+<<<<<<< HEAD
   root to: 'static_pages#home'
+=======
+  root 'static_pages#home'
+>>>>>>> master
 
   get 'help' => 'static_pages/help'
 
